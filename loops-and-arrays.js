@@ -5,6 +5,18 @@
 // ==========================================
 
 const names = ["Henk", "Piet", "Fred", "Joop"];
+for (let i = 0; i <=names.length-1; i++){
+    // i===i werkt ?
+    // names[i] === names[i]
+    // names[i] && names[i]
+    // wat is beter === of && ?
+    if(i === i){
+        //Stel ik wil dat bij piet en joop doen kan ik dan ook meerdere index nummers achter elkaar zetten en kan dit eindeloos?
+       names[i] = names[i]+"je"
+    }
+}
+console.log(names)
+    //ik heb nu geen ELSE ...kan dit wel???
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
@@ -22,7 +34,17 @@ const names = ["Henk", "Piet", "Fred", "Joop"];
 // ==========================================
 
 const numbers = [2, 4, 5, 29, 38];
-
+for ( let i=0;i<=numbers.length-1;i++)
+    //Het verschil tussen [i] en numbers[i] is het indexnummer en het indexnummer+de waarde !!
+    // % is modulus ... met (% 2 === 0) kun je kijken of je er een restwaarde is als er gedeeld wordt door 2 (dus even of oneven)
+    //Waarom krijg ik NaN ?
+    if(numbers[i] % 2 === 0) {
+        numbers[i]=numbers[i]* 2
+    }
+    else  {
+       numbers[i]= numbers[i]* 3
+}
+console.log(numbers)
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
 // console.log(numbers) geeft: [2, 4, 5, 29, 38];
@@ -41,6 +63,13 @@ const numbers = [2, 4, 5, 29, 38];
 // ==========================================
 
 const squares = [30, 2, 8, 24, 11];
+for (let i=0; i<=squares.length-1; i++){
+    const answer = squares[i]*squares[i]*squares[i];
+    squares[i] = "Het volume van "+squares[i]+" is "+answer;
+}
+console.log(squares)
+
+
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:

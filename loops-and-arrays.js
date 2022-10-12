@@ -16,7 +16,7 @@ for (let i = 0; i <=names.length-1; i++){
     }
 }
 console.log(names)
-    //ik heb nu geen ELSE ...kan dit wel???
+    //ik heb nu geen ELSE ...kan dit wel?
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:

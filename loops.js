@@ -69,6 +69,7 @@ for (let i = 0; i < assignment.length; i++){
 // Tip: een getal is oneven als je het door 2 deelt en er blijft nog iets over. Een getal is even als je het deelt door 2 en er blijft niets over. Google daarom eens naar 'mdn webdocs remainder operator'.
 // ==========================================
 // The remainder operator (%) returns the remainder left over when one operand is divided by a second operand. It always takes the sign of the dividend.
+// Sam noemt % modulus
 const number= [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
 for (let i = 0; i < number.length; i++){
     if (i % 2){

@@ -5,18 +5,18 @@
 // ==========================================
 
 const names = ["Henk", "Piet", "Fred", "Joop"];
-for (let i = 0; i <=names.length-1; i++){
+for (let i = 0; i <=names.length; i++){
     // i===i werkt ?
     // names[i] === names[i]
     // names[i] && names[i]
     // wat is beter === of && ?
     if(i === i){
         //Stel ik wil dat bij piet en joop doen kan ik dan ook meerdere index nummers achter elkaar zetten en kan dit eindeloos?
-       names[i] = names[i]+"je"
+       names [i] = names[i]+"je"
     }
 }
 console.log(names)
-    //ik heb nu geen ELSE ...kan dit wel?
+    //ik heb nu geen ELSE ...kan dit wel ?
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
